@@ -1,2 +1,2 @@
-# Doe_MaratonaDev
+# Doe
 Aplicação web para doação de sangue
