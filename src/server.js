@@ -9,9 +9,10 @@ app.listen(3000, function(){
 });
 
 //configurando a template engine
-nunjucks.configure(path.join(__dirname, 'views'), {
+nunjucks.configure(path.join(__dirname, 'app', 'views'), {
   autoescape: true,
   express: app,
-  watch: true
+  watch: true,
+  noCache: true,
 });
 
