@@ -20,7 +20,7 @@ class UserController {
       });
 
     if (!(await schema.isValid(req.body))) {
-      return res.status(400).json({ error: 'Erro de validação. Verifique os seus dados e tente novamente.' });
+      return res.status(400).json({ error: 'Todos os campos são obrigatórios.' });
     } 
     
     const userExists = await User.findOne({ where: { email: req.body.email } });
@@ -29,20 +29,17 @@ class UserController {
       return res.status(400).json({ message: 'O doador já existe!' });
     }
 
-   donors.push({
-     
-      name: req.body.name,
-      email: req.body.email,
-      blood: req.body.blood
-    }) 
-
     const { id, name, email, blood } = await User.create(req.body);
-      return res.json({
-      id,
-      name,
-      email,
-      blood,
-    });  
+   
+   
+    donors.push({
+     
+      name: name,
+      email: email,
+      blood: blood
+    });
+    
+    return res.redirect("/");
   }
 }
 

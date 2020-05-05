@@ -18,7 +18,7 @@ const donors = [
     name: "Davi Gonçalves",
     email: "davi@hotmail.com",
     blood: "A+"
-  },
+  }, 
 ]
 
 export default donors;
