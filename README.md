@@ -6,7 +6,9 @@
 
 
 ## O que é?
-É uma pequena aplicação que foi feita na maratonaDev, onde o usuário cadastra seus dados no intuito de fazer doação de sangue. 
+É uma pequena aplicação que foi feita na maratonaDev, onde o usuário cadastra seus dados no intuito de fazer doação de sangue.
+
+Obs: A aplicação foi feita com base na arquitetura MVC, mas como desafio para mim, na maratonaDev foi feito de outra forma.
 
 <p align="center">
   <img  src="https://i.imgur.com/2Mvde59.gif" heigth="500" width="500">
@@ -24,6 +26,7 @@
 
 <h3><strong>Back-End:<strong></h3>
   
+ - Yarn 
  - NodeJS 
  - Express 
  - Sucrase
@@ -32,12 +35,12 @@
  - Yup (Validação de campos)
  - Docker(Software de Container)
  
-<h3><strong>Banco de Dados<strong></h3>
+<h3><strong>Banco de Dados:<strong></h3>
   
  - PostgreSQL (utilizando o docker container e o postbird)
    
 <p align="center">
-  <img  src="https://i.imgur.com/EyTfxGm.png" heigth="500" width="500">
+  <img  src="https://i.imgur.com/EyTfxGm.png" heigth="600" width="600">
 </p>
    
   
