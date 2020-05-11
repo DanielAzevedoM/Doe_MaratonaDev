@@ -14,10 +14,13 @@
 
 ## Tecnologias utilizadas
 
-  <p><strong>Front-End:<strong></p>
+  Front-End:
                      
     - Html
     - Css
-    - Javascript
+    - Javascript 
+
+
+<p><strong>Back-End<strong></p>
    
 
