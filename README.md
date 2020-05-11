@@ -14,13 +14,32 @@
 
 ## Tecnologias utilizadas
 
- <p><strong>Front-End:<strong><p>
+
+<h3><strong>Front-End:<strong></h3>
                      
-    - Html
-    - Css
-    - Javascript 
+  - Html
+  - Css
+  - Javascript 
+    
 
-
-<p><strong>Back-End<strong></p>
+<h3><strong>Back-End:<strong></h3>
+  
+ - NodeJS 
+ - Express 
+ - Sucrase
+ - Nodemon    
+ - Sequelize (ORM)
+ - Yup (Validação de campos)
+ - Docker(Software de Container)
+ 
+<h3><strong>Banco de Dados<strong></h3>
+  
+ - PostgreSQL (utilizando o docker container e o postbird)
+   
+<p align="center">
+  <img  src="https://i.imgur.com/EyTfxGm.png" heigth="500" width="500">
+</p>
+   
+  
    
 
