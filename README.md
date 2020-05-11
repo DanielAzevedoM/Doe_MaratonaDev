@@ -6,8 +6,18 @@
 
 
 ## O que é?
-É uma pequena aplicação, onde o usuário cadastra seus dados no intuito de fazer doação de sangue. </br>
+É uma pequena aplicação que foi feita na maratonaDev, onde o usuário cadastra seus dados no intuito de fazer doação de sangue. 
 
 <p align="center">
-  <img  src="https://i.imgur.com/2Mvde59.gif" heigth="400" width="400">
+  <img  src="https://i.imgur.com/2Mvde59.gif" heigth="500" width="500">
 </p>
+
+## Tecnologias utilizadas
+
+  <p><strong>Front-End:<strong></p>
+                     
+    - Html
+    - Css
+    - Javascript
+   
+
