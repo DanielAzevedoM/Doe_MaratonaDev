@@ -14,7 +14,7 @@
 
 ## Tecnologias utilizadas
 
-  Front-End:
+ <p><strong>Front-End:<strong><p>
                      
     - Html
     - Css
